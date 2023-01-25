@@ -1,0 +1,26 @@
+
+1. Let's build the model to recognise the sentiment/intent of the text that user asks.
+    - for these let's collect all possible questions those serve perticular intention.
+    for example
+      let's say, have 10 kinds of responses such as
+         response for greetings, goodbye, fee_structure, campus_placement, departments, adress,
+                    extra curriculam activities, gratitude, commute/travel
+        1. As we classify the input text as one of these categories. ask the confirmation question. 
+            if user says yes, give corresponding response. If no, display all possible dropdown to select
+        2. Once they select an option, give the final answer.
+    
+2. To achieve this,
+    1. I might need tensorflow to train the model to classify the intent of the user input.
+    If possible I could simply go for simple tf-idf representaiton and do the classification, no need to
+    go for sequence model.
+    2. build it separately in jupyter notebook and write the model to serparate folder and load it in this
+        project folder
+    3. before predicting the intent of the user let's do the preprocessing to,
+        1. get rid of punctuations, urls, numbers, signs, stop_words and etc.
+        2. bring entire text to lower case
+        3. do stemming to bring all words to their base form
+        4. refer vocabulary to replace the unkown word
+        5. send this sequence of cleaned words to model to predict the intent of the text
+        6. Once the intent is clear to the bot, we know the story as mentioned above.
+
+        

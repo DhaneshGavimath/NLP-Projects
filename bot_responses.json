@@ -1,0 +1,16 @@
+{
+    "Responses": {
+        "greetings":["Hi","Hello","Good Morning!","Good Evening!"], 
+        "goodbye":["bye","see you again","good night"], 
+        "fee_structure":["Fee structure: \nCollege Fees:\t-3.8 lacs\nHostel Fees:\t4.5 lacs"], 
+        "campus_placement":["Placements are good","Many MNCs comes for campus placements. It is good!"], 
+        "departments":["There are several departments available such as\nAero\tMech\tCSE\tCivil\tChemical and etc",
+    "For more information about the departments please visit www.mars.edu.in"], 
+        "adress":["Collage location:\nNear Golden Volcano, Indo craters, Mars 576-119"],
+        "activities":["we have cricket, football, basketball, volcano throw ball and many more."], 
+        "commute":["Easy to do up and down. Auto, Bus, Train, metro, helicopter, rocket facilities are availale"], 
+        "gratitude":["Thank You!","No problem","You are Welcome!"]
+    }      
+    ,
+    "confirmation": {}
+}

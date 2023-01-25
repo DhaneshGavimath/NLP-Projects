@@ -1,0 +1,16 @@
+{
+    "greetings":["Hi","Hello","Good Morning!","Good Evening!"], 
+
+    "goodbye":["bye","see you again","good night"], 
+
+    "fee_structure":["what is the fee structure","How much is the donation?","what is the fee","fee_structure?"], 
+
+    "campus_placement":["How about campus placements","are placements good?", "How are the job opertunities"], 
+    
+    "departments":["what are all the courses available?", "what subjects can we choose","what are the departments available?"], 
+    "adress":["can you provide the adress of the college","where is the college","where does it located"],
+    "activities":["how about sports","what about games", "how about activities"], 
+    "commute":["are there bus facilities","how about commute","how about travel?","what about travel?","are there any metro stations nearby",
+                "taxi available?"], 
+    "gratitude":["Thank You!", "Thank you very much!","I appreciate you work", "I value you work","good job", "great"]
+}
